@@ -16,7 +16,48 @@
 </head>
 <body>
     
-    
+    <!-- Creating a navbar here -->
+    <div class="navbar flex justify-between items-center md:p-3">
+        
+        <div class = "flex justify-between items-center md:hidden">
+            <div class="hamburger inline-block p-3 cursor-pointer">
+                <div class="line h-0.5 w-5 my-1 bg-black rounded-md"></div>
+                <div class="line h-0.5 w-5 my-1 bg-black rounded-md"></div>
+                <div class="line h-0.5 w-5 my-1 bg-black rounded-md"></div>
+            </div>
+            <div class="search-logo"> <img src = "images/icons8-search.svg" alt="Search Icon" class = "w-5 sm:hidden scale-x-[-1] ml-1"> </div>
+        </div>
+
+        <!-- Microsoft Logo -->
+        <div class="logo md:order-1 flex items-center"> 
+            <img src = "images/microsoft.png" alt = "Microsoft Image" class = "sm:w-28 md:w-[6rem] xsz:w-[100px]">
+
+            <ul class="mainNav md:flex absolute md:static inset-0 md:mx-3 md:space-x-3 w-fit md:w-auto h-fit md:h-auto -translate-x-96 md:translate-x-0 sm:text-sm ft1 font-light">
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Microsoft 365 </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Teams </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Copilot </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Windows </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Surface </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Xbox </a> </li>
+                <li> <a href = "#" class = "fitem active:text-[#03a5f0]"> Support </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> Software </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> PCs & Devices </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> Entertainment </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> Business </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> Developer & IT </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> Other </a> </li>
+                <li> <a href = "#" class = "fitem md:hidden"> View Sitemap </a> </li>
+            </ul>
+        </div>
+
+        <!-- Microsoft Cart and Profile Icon -->
+        <div class="cart-icon md:order-2 flex md:gap-4 sm:gap-3 mr-3">
+            <img src = "images/icons8-search.svg" alt="Searh Icon" class = "search-logo w-5 max-sm:hidden scale-x-[-1]">
+            <img src = "images/clock_16058099.png" alt = "cart Icon" class = "cart-icon w-5">
+            <img src = "images/user_17740782.png" alt = "User Icon" class = "user-icon w-5 max-sm:hidden">
+        </div>
+
+    </div>
 
 </body>
 </html>
