@@ -11,4 +11,9 @@
     .ft2{
         font-family: "Finlandica", serif;
     }
+
+    /* Adding some CSS regarding the background image */
+    .bgimg1{
+        background-image: url('images/Copilot.avif');
+    }
 }
