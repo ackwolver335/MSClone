@@ -58,7 +58,7 @@
 
 ## 📰 License 
 
-Distributed under the MIT License. See `LICENSE` for full details.
+Distributed under the MIT License. See **[LICENSE](https://github.com/ackwolver335/MSClone?tab=MIT-1-ov-file)** for full details.
 
 ## 📩 Contact Me - For any Query
 
